@@ -1,0 +1,29 @@
+{
+  "name": "hotel-reservation-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ridwan097/Hotel-Reservation-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ridwan097/Hotel-Reservation-API/issues"
+  },
+  "homepage": "https://github.com/ridwan097/Hotel-Reservation-API#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.6",
+    "nodemon": "^2.0.16"
+  }
+}
